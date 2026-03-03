@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teknomic.com.tr/sitemap.xml
+
+# Teknomic Bilisim Teknolojileri
+# Ankara - Veri Kurtarma, CCTV, Bilgisayar Tamiri

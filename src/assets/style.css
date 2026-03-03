@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* Corporate Color System */
+:root {
+  --navy: #0f2b46;
+  --navy-light: #1a3a5c;
+  --navy-dark: #091e33;
+  --blue: #1e40af;
+  --blue-light: #3b82f6;
+  --sky: #0ea5e9;
+  --green: #17ba60;
+  --green-light: #02dd65;
+  --amber: #d97706;
+  --amber-light: #f59e0b;
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Corporate gradient utility */
+.corporate-gradient {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 50%, var(--blue) 100%);
+}
+
+.corporate-gradient-subtle {
+  background: linear-gradient(135deg, var(--slate-50) 0%, #eef2ff 50%, var(--slate-100) 100%);
+}
+
+/* Top bar animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    max-height: 500px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
+  overflow: hidden;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease-out;
+}
+
+.animate-countUp {
+  animation: countUp 0.6s ease-out forwards;
+}
+
+/* Scroll Reveal Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Corporate card hover accent */
+.card-corporate {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-corporate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: linear-gradient(180deg, var(--blue) 0%, var(--green) 100%);
+  transition: height 0.3s ease;
+}
+
+.card-corporate:hover::before {
+  height: 100%;
+}
+
+/* Section divider */
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--navy), var(--green));
+  margin: 0 auto;
+  border-radius: 2px;
+}
