@@ -30,7 +30,7 @@ Ankara merkezli **Teknomic Bilişim Teknolojileri**'nin kurumsal web sitesi. Ver
 
 ```bash
 # Depoyu klonlayın
-git clone https://github.com/YOUR_USERNAME/teknomic.git
+git clone https://github.com/aebayav/teknomic.git
 cd teknomic
 
 # Bağımlılıkları yükleyin
