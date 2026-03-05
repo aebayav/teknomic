@@ -30,10 +30,6 @@ function FAQ() {
       answer: "Evet, Ankara genelinde yerinde servis hizmeti sunuyoruz. Kurumsal müşterilerimiz için özel anlaşmalarımız ve bakım sözleşmelerimiz mevcuttur."
     },
     {
-      question: "Uydu ve network sistemleri kurulumu yapıyor musunuz?",
-      answer: "Evet, merkezi uydu sistemleri, çanak anten kurulumu, yapılandırılmış kablolama, WiFi sistemleri ve IP kamera kurulumları yapıyoruz. Kurulum sonrası teknik destek sağlıyoruz."
-    },
-    {
       question: "CCTV güvenlik kamera sistemi kurulumu yapıyor musunuz?",
       answer: "Evet, ev ve iş yerleri için profesyonel CCTV güvenlik kamera sistemi kurulumu yapıyoruz. IP kamera, analog kamera, NVR/DVR kayıt cihazları, gece görüşlü kameralar ve uzaktan izleme çözümleri sunuyoruz. Ücretsiz keşif ve proje tasarımı hizmetimiz mevcuttur."
     },

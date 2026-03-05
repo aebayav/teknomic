@@ -31,7 +31,7 @@ function HeroGallery() {
     {
       title: 'KURUMSAL ÇÖZÜMLER',
       subtitle: 'AĞ ALTYAPISI & TEKNİK DESTEK',
-      description: 'Elektronik Kart Tamiri, Network Altyapısı, Uydu Kurulumu ve 7/24 Kurumsal Teknik Destek Hizmetleri.',
+      description: 'Elektronik Kart Tamiri, Network Altyapısı ve 7/24 Kurumsal Teknik Destek Hizmetleri.',
       buttonText: 'İletişime Geçin',
       buttonLink: '#contact',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop'

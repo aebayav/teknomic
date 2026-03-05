@@ -51,7 +51,7 @@ const AboutUs = () => {
                         <p className="text-lg text-gray-600 leading-relaxed">
                             <strong>Teknomic</strong>, Ankara merkezli olarak 10 yılı aşkın süredir bilişim teknolojileri, 
                             güvenlik sistemleri ve teknik servis alanlarında hizmet vermektedir. Veri kurtarma, bilgisayar tamiri, 
-                            CCTV güvenlik kamera sistemleri, ağ altyapısı kurulumu ve uydu sistemleri konularında 
+                            CCTV güvenlik kamera sistemleri ve ağ altyapısı kurulumu konularında 
                             uzman kadromuzla kurumsal ve bireysel müşterilerimize güvenilir çözümler sunuyoruz.
                         </p>
 

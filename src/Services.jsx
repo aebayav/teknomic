@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaHdd, FaLaptop, FaMicrochip, FaSatelliteDish, FaNetworkWired, FaTools, FaTimes, FaVideo } from 'react-icons/fa';
+import { FaHdd, FaLaptop, FaMicrochip, FaNetworkWired, FaTools, FaTimes, FaVideo } from 'react-icons/fa';
 
 function Services() {
   const [selectedService, setSelectedService] = useState(null);
@@ -25,13 +25,6 @@ function Services() {
       description: "Bilgisayar anakart ve tüm elektronik kart tamiri hizmetleri.",
       detailedDescription: "Bilgisayar anakartları, ekran kartları, güç kaynakları ve diğer elektronik kartların profesyonel tamiri. BGA reballing, mikroişlemci değişimi, kondansatör değişimi ve devre onarımı gibi ileri seviye elektronik tamir işlemleri yapıyoruz. Uzman ekibimiz ve modern ekipmanlarımızla yüksek başarı oranına sahibiz.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop"
-    },
-    {
-      icon: <FaSatelliteDish className="text-4xl text-[#0f2b46] mb-4" />,
-      title: "Uydu Sistemleri",
-      description: "Uydu kurulumu, ayar ve bakım hizmetleri sunuyoruz.",
-      detailedDescription: "Ev ve işyerleri için profesyonel uydu kurulum hizmeti. Merkezi uydu sistemleri, çanak anten kurulumu, LNB ayarları, receiver kurulumu ve tüm uydu ekipmanlarının satışı. Sinyal optimizasyonu, kanal tarama ve sistem bakım hizmetleri ile kesintisiz yayın deneyimi sağlıyoruz. Tüm marka ve model uydu alıcılarının tamiri.",
-      image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop"
     },
     {
       icon: <FaVideo className="text-4xl text-[#1e40af] mb-4" />,

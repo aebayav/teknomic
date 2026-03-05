@@ -35,7 +35,6 @@ function NavBar() {
       { name: 'Bilgisayar Tamiri', href: '#hizmetlerimiz' },
       { name: 'CCTV & Güvenlik Kameraları', href: '#cctv' },
       { name: 'Ağ Sistemleri', href: '#hizmetlerimiz' },
-      { name: 'Uydu Sistemleri', href: '#hizmetlerimiz' },
     ],
     'kurumsal': [
       { name: 'Hakkımızda', href: '#hakkimizda' },
